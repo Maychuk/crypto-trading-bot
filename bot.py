@@ -9,7 +9,7 @@ bot = telebot.TeleBot("7614342196:AAGsADl2r1ioP-WjMcwJLIiMQo46AOoQgvs")
 print("✅ Бот активен. Ожидаю команду /start...")
 
 # Загружаем вопросы и баллы
-questions_df = pd.read_excel("crypto_test_questions_11_40_final.xlsx")
+questions_df = pd.read_excel("crypto_test_questions.xlsx")
 types_df = pd.read_excel("crypto_trading_personality_types.xlsx")
 
 questions = []
